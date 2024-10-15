@@ -1,4 +1,4 @@
-package plus.gaga.middleware.test;
+package cn.bugstack.middleware.test;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;

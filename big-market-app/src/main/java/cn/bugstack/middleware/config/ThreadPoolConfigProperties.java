@@ -1,4 +1,4 @@
-package plus.gaga.middleware.config;
+package cn.bugstack.middleware.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

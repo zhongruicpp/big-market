@@ -1,4 +1,4 @@
-package plus.gaga.middleware.config;
+package cn.bugstack.middleware.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
