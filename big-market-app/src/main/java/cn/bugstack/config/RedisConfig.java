@@ -1,4 +1,4 @@
-package cn.bugstack.middleware.config;
+package cn.bugstack.config;
 
 
 import org.springframework.context.annotation.Bean;

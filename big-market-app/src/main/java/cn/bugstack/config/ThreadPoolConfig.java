@@ -12,12 +12,12 @@ import java.util.concurrent.*;
 @Slf4j
 @EnableAsync
 @Configuration
-@EnableConfigurationProperties(cn.bugstack.middleware.config.ThreadPoolConfigProperties.class)
+@EnableConfigurationProperties(cn.bugstack.config.ThreadPoolConfigProperties.class)
 public class ThreadPoolConfig {
 
     @Bean
     @ConditionalOnMissingBean(ThreadPoolExecutor.class)
-    public ThreadPoolExecutor threadPoolExecutor(cn.bugstack.middleware.config.ThreadPoolConfigProperties properties) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+    public ThreadPoolExecutor threadPoolExecutor(cn.bugstack.config.ThreadPoolConfigProperties properties) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
         // 实例化策略
         RejectedExecutionHandler handler;
         switch (properties.getPolicy()){

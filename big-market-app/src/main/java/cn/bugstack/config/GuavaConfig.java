@@ -1,4 +1,4 @@
-package cn.bugstack.middleware.config;
+package cn.bugstack.config;
 
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
