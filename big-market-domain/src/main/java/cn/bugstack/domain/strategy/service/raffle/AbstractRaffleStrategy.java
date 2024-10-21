@@ -39,7 +39,7 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
         if (strategyId == null || StringUtils.isBlank(userId)) {
             throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(), ResponseCode.ILLEGAL_PARAMETER.getInfo());
         }
-        // 2. 策略查询
+        // 2. 策略查询 在 ‘strategy’ 中查询
         StrategyEntity strategy = repository.queryStrategyEntityByStrategyId(strategyId);
         // 3. 抽奖前 - 规则过滤
         RuleActionEntity<RuleActionEntity.RaffleBeforeEntity> ruleActionEntity = this.doCheckRaffleBeforeLogic(RaffleFactorEntity.builder().userId(userId).strategyId(strategyId).build(), strategy.ruleModels());

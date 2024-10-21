@@ -52,7 +52,7 @@ public class RuleWeightLogicFilter implements ILogicFilter<RuleActionEntity.Raff
 
         Long nextValue = analyticalSortedKeys.stream()
                 .filter(key -> userScore >= key)
-                .findFirst()
+                .max(Long::compare)
                 .orElse(null);
 
         if (nextValue != null) {
@@ -83,10 +83,10 @@ public class RuleWeightLogicFilter implements ILogicFilter<RuleActionEntity.Raff
             }
             // 分割字符串以获取键和值
             String[] parts = ruleValueKey.split(Constants.COLON);
-            if(parts.length != 2) {
+            if (parts.length != 2) {
                 throw new IllegalArgumentException("rule_weight rule_rule invalid input format" + ruleValueKey);
             }
-            ruleValueMap.put(Long.parseLong(parts[0]),ruleValueKey);
+            ruleValueMap.put(Long.parseLong(parts[0]), ruleValueKey);
         }
         return ruleValueMap;
     }
