@@ -39,7 +39,7 @@ public class LogicChainTest {
     @Test
     public void test_LogicChain_rule_blacklist() {
         ILogicChain logicChain = defaultChainFactory.openLogicChain(100001L);
-        Integer awardId = logicChain.logic("user001", 100003L);
+        Integer awardId = logicChain.logic("user001", 100001L);
         log.info("测试结果：{}", awardId);
     }
 
