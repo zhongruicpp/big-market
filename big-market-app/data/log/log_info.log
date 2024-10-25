@@ -1,37 +1,21 @@
-24-10-24.10:13:27.807 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_412 on ZhongRui with PID 12324 (started by zhong in E:\new_big_market\big-market\big-market-app)
-24-10-24.10:13:27.807 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-10-24.10:13:28.554 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-10-24.10:13:28.557 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-10-24.10:13:28.589 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-10-24.10:13:30.365 [main            ] INFO  Version                - Redisson 3.32.0
-24-10-24.10:13:30.591 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-24.10:14:33.863 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_412 on ZhongRui with PID 10476 (started by zhong in E:\new_big_market\big-market\big-market-app)
-24-10-24.10:14:33.874 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-10-24.10:14:34.607 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-10-24.10:14:34.611 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-10-24.10:14:34.638 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
-24-10-24.10:14:36.265 [main            ] INFO  Version                - Redisson 3.32.0
-24-10-24.10:14:36.476 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-24.10:14:36.591 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.10:14:36.604 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.10:14:39.681 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 6.319 seconds (JVM running for 7.172)
-24-10-24.10:14:40.351 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-10-24.10:14:40.700 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-10-24.10:14:40.784 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-10-24.10:14:40.789 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user001 strategyId: 100003 ruleModel: rule_blacklist
-24-10-24.10:15:23.562 [main            ] INFO  LogicChainTest         - Starting LogicChainTest using Java 1.8.0_412 on ZhongRui with PID 20076 (started by zhong in E:\new_big_market\big-market\big-market-app)
-24-10-24.10:15:23.573 [main            ] INFO  LogicChainTest         - The following 1 profile is active: "dev"
-24-10-24.10:15:24.327 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-10-24.10:15:24.330 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-10-24.10:15:24.358 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-24-10-24.10:15:25.920 [main            ] INFO  Version                - Redisson 3.32.0
-24-10-24.10:15:26.131 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-24.10:15:26.253 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.10:15:26.263 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-24.10:15:29.193 [main            ] INFO  LogicChainTest         - Started LogicChainTest in 6.139 seconds (JVM running for 6.991)
-24-10-24.10:15:29.832 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
-24-10-24.10:15:30.126 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
-24-10-24.10:15:30.208 [main            ] INFO  LogicChainTest         - 测试结果：true
-24-10-24.10:15:30.212 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单开始 userId: user001 strategyId: 100001 ruleModel: rule_blacklist
-24-10-24.10:15:30.253 [main            ] INFO  BlackListLogicChain    - 抽奖责任链-黑名单接管 userId: user001 strategyId: 100001 ruleModel: rule_blacklist awardId: 100
-24-10-24.10:15:30.254 [main            ] INFO  LogicChainTest         - 测试结果：100
+24-10-25.11:04:25.120 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_412 on ZhongRui with PID 20012 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-25.11:04:25.121 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-10-25.11:04:25.774 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-25.11:04:25.777 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-25.11:04:25.814 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-10-25.11:04:27.413 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-25.11:04:27.624 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-25.11:05:20.238 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_412 on ZhongRui with PID 6320 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-25.11:05:20.271 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
+24-10-25.11:05:20.833 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-25.11:05:20.835 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-25.11:05:20.868 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-10-25.11:05:22.285 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-25.11:05:22.480 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-25.11:05:22.596 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-25.11:05:22.610 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-25.11:05:25.199 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 5.379 seconds (JVM running for 6.236)
+24-10-25.11:08:59.617 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
+24-10-25.11:09:30.905 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
+24-10-25.11:09:47.188 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
+24-10-25.11:09:48.880 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
