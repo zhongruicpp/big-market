@@ -1,21 +1,95 @@
-24-10-25.11:04:25.120 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_412 on ZhongRui with PID 20012 (started by zhong in E:\new_big_market\big-market\big-market-app)
-24-10-25.11:04:25.121 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
-24-10-25.11:04:25.774 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-10-25.11:04:25.777 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-10-25.11:04:25.814 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
-24-10-25.11:04:27.413 [main            ] INFO  Version                - Redisson 3.32.0
-24-10-25.11:04:27.624 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-25.11:05:20.238 [main            ] INFO  LogicTreeTest          - Starting LogicTreeTest using Java 1.8.0_412 on ZhongRui with PID 6320 (started by zhong in E:\new_big_market\big-market\big-market-app)
-24-10-25.11:05:20.271 [main            ] INFO  LogicTreeTest          - The following 1 profile is active: "dev"
-24-10-25.11:05:20.833 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
-24-10-25.11:05:20.835 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-24-10-25.11:05:20.868 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
-24-10-25.11:05:22.285 [main            ] INFO  Version                - Redisson 3.32.0
-24-10-25.11:05:22.480 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-25.11:05:22.596 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-25.11:05:22.610 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
-24-10-25.11:05:25.199 [main            ] INFO  LogicTreeTest          - Started LogicTreeTest in 5.379 seconds (JVM running for 6.236)
-24-10-25.11:08:59.617 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_lock code:0000
-24-10-25.11:09:30.905 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_stock code:0001
-24-10-25.11:09:47.188 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【决策树规则；增加dall-e-3画图模型】treeId:100000001 node:rule_luck_award code:0001
-24-10-25.11:09:48.880 [main            ] INFO  LogicTreeTest          - 测试结果：{"awardId":101,"awardRuleValue":"1,100"}
+24-10-28.11:22:35.137 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 6064 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.11:22:35.138 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.11:22:35.806 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.11:22:35.811 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.11:22:35.850 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-10-28.11:22:37.534 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-28.11:22:37.800 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-28.11:22:37.927 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:22:37.935 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:22:40.401 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.683 seconds (JVM running for 6.95)
+24-10-28.11:22:40.845 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-28.11:22:41.101 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-28.11:22:41.152 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:22:41.175 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:24:03.089 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 27468 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.11:24:03.090 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.11:24:03.672 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.11:24:03.675 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.11:24:03.701 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+24-10-28.11:24:09.457 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 6252 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.11:24:09.458 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.11:24:10.021 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.11:24:10.024 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.11:24:10.054 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-10-28.11:24:11.586 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-28.11:24:11.883 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-28.11:24:12.011 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:24:12.023 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:24:14.677 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.666 seconds (JVM running for 6.454)
+24-10-28.11:24:15.116 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-28.11:24:15.348 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-28.11:24:15.394 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:24:15.400 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:26:29.345 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m43s997ms6µs200ns).
+24-10-28.11:27:53.784 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m24s438ms608µs).
+24-10-28.11:29:07.799 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 25760 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.11:29:07.800 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.11:29:08.373 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.11:29:08.377 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.11:29:08.410 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-10-28.11:29:09.910 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-28.11:29:10.173 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-28.11:29:10.285 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:29:10.295 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:29:12.862 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.5 seconds (JVM running for 6.277)
+24-10-28.11:29:13.285 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-28.11:29:13.519 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-28.11:29:13.578 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:29:13.585 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:30:07.014 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=51s577ms480µs600ns).
+24-10-28.11:30:07.015 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: default awardId: 102
+24-10-28.11:30:24.864 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 default
+24-10-28.11:30:25.052 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-10-28.11:30:25.055 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardId":102}
+24-10-28.11:33:36.889 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 4520 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.11:33:36.891 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.11:33:37.482 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.11:33:37.485 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.11:33:37.510 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+24-10-28.11:33:38.969 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-28.11:33:39.233 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-28.11:33:39.398 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:33:39.409 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.11:33:41.989 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.51 seconds (JVM running for 6.254)
+24-10-28.11:33:42.372 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-28.11:33:42.584 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-28.11:33:42.644 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:33:42.649 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.11:33:58.702 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=45s280ms935µs400ns).
+24-10-28.11:34:00.768 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-10-28.11:34:00.769 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-10-28.14:43:55.741 [main            ] INFO  RaffleStrategyTest     - Starting RaffleStrategyTest using Java 1.8.0_412 on ZhongRui with PID 28472 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-28.14:43:55.742 [main            ] INFO  RaffleStrategyTest     - The following 1 profile is active: "dev"
+24-10-28.14:43:56.445 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-28.14:43:56.449 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-28.14:43:56.486 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-10-28.14:43:58.212 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-28.14:43:58.475 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-28.14:43:58.601 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.14:43:58.611 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-28.14:44:01.086 [main            ] INFO  RaffleStrategyTest     - Started RaffleStrategyTest in 5.795 seconds (JVM running for 6.793)
+24-10-28.14:44:01.689 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-28.14:44:01.952 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-28.14:44:02.015 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.14:44:02.022 [main            ] INFO  RaffleStrategyTest     - 测试结果：true
+24-10-28.14:44:09.827 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 102
+24-10-28.14:44:09.828 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 102 rule_default
+24-10-28.14:45:06.658 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m223ms834µs601ns).
+24-10-28.14:46:05.013 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=58s355ms324µs500ns).
+24-10-28.14:48:28.408 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_lock code:0000
+24-10-28.14:48:28.410 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_stock code:0001
+24-10-28.14:48:28.411 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树】treeId:tree_lock node:rule_luck_award code:0001
+24-10-28.14:48:29.967 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 1,100
+24-10-28.14:48:30.139 [main            ] INFO  RaffleStrategyTest     - 请求参数：{"strategyId":100006,"userId":"xiaofuge"}
+24-10-28.14:48:30.142 [main            ] INFO  RaffleStrategyTest     - 测试结果：{"awardConfig":"1,100","awardId":101}
