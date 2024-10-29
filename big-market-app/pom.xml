@@ -88,6 +88,10 @@
             <groupId>plus.gaga.middleware</groupId>
             <artifactId>big-market-infrastructure</artifactId>
         </dependency>
+        <dependency>
+            <groupId>plus.gaga.middleware</groupId>
+            <artifactId>big-market-api</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
