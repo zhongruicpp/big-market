@@ -1,6 +1,5 @@
 package cn.bugstack.domain.strategy.service.rule.tree.factory;
 
-import cn.bugstack.domain.strategy.model.entity.StrategyRuleEntity;
 import cn.bugstack.domain.strategy.model.valobj.RuleLogicCheckTypeVO;
 import cn.bugstack.domain.strategy.model.valobj.RuleTreeVO;
 import cn.bugstack.domain.strategy.service.rule.tree.ILogicTreeNode;

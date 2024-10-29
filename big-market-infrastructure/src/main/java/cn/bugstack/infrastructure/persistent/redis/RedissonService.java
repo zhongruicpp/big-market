@@ -4,6 +4,7 @@ import org.redisson.api.*;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.security.Key;
 import java.time.Duration;
 
 /**
@@ -154,6 +155,11 @@ public class RedissonService implements IRedisService {
     @Override
     public <T> RBloomFilter<T> getBloomFilter(String key) {
         return redissonClient.getBloomFilter(key);
+    }
+
+    @Override
+    public Boolean setNx(String key) {
+        return redissonClient.getBucket(key).trySet("lock");
     }
 
 

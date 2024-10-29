@@ -42,30 +42,33 @@ public class DecisionTreeEngine implements IDecisionTreeEngine {
         while (nextNode != null) {
             // 获取决策节点
             ILogicTreeNode logicTreeNode = logicTreeNodeGroup.get(ruleTreeNode.getRuleKey());
+            String ruleValue = ruleTreeNode.getRuleValue();
+
             // 决策节点计算
-            DefaultTreeFactory.TreeActionEntity logicEntity = logicTreeNode.logic(userId, strategyId, awardId);
+            DefaultTreeFactory.TreeActionEntity logicEntity = logicTreeNode.logic(userId, strategyId, awardId, ruleValue);
             RuleLogicCheckTypeVO ruleLogicCheckTypeVO = logicEntity.getRuleLogicCheckType();
             strategyAwardData = logicEntity.getStrategyAwardVO();
             log.info("决策树引擎【{}】treeId:{} node:{} code:{}", ruleTreeVO.getTreeName(), ruleTreeVO.getTreeId(), nextNode, ruleLogicCheckTypeVO.getCode());
 
-            // 获取下一个节点
-            nextNode = nextNode(ruleLogicCheckTypeVO.getCode(), ruleTreeNode.getTreeNodeLineVOList());
+            // 获取下个节点
+            String code = ruleLogicCheckTypeVO.getCode();
+            List<RuleTreeNodeLineVO> treeNodeLineVOList = ruleTreeNode.getTreeNodeLineVOList();
+            nextNode = nextNode(code, treeNodeLineVOList);
             ruleTreeNode = treeNodeMap.get(nextNode);
         }
+
         // 返回最终结果
         return strategyAwardData;
     }
 
-    private String nextNode(String matterValue, List<RuleTreeNodeLineVO> treeNodeLineVOList) {
-        if (treeNodeLineVOList == null || treeNodeLineVOList.isEmpty()) {
-            return null;
-        }
+    public String nextNode(String matterValue, List<RuleTreeNodeLineVO> treeNodeLineVOList) {
+        if (null == treeNodeLineVOList || treeNodeLineVOList.isEmpty()) return null;
         for (RuleTreeNodeLineVO nodeLine : treeNodeLineVOList) {
             if (decisionLogic(matterValue, nodeLine)) {
                 return nodeLine.getRuleNodeTo();
             }
         }
-        throw new RuntimeException("决策树引擎，nextNode 计算失败，未找到可执行节点！");
+        return null;
     }
 
     public boolean decisionLogic(String matterValue, RuleTreeNodeLineVO nodeLine) {
