@@ -1,8 +1,88 @@
-24-10-30.09:13:03.668 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:14:22.501 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:15:37.487 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=56s206ms234µs200ns).
-24-10-30.09:18:47.505 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:20:27.129 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:22:10.929 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:23:15.818 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
-24-10-30.09:24:49.308 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:10:20.077 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:10:39.042 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.047 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.051 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.054 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.060 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.064 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.068 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.072 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.076 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.080 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.085 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.088 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.092 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.096 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.101 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.104 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.108 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.111 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.116 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:10:39.119 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:12:19.844 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:13:15.174 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s358ms218µs300ns).
+24-11-03.11:13:17.245 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.253 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.258 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.265 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.269 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.274 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.279 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.283 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.288 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.292 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.296 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.301 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.307 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.311 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.317 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.323 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.327 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.331 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.336 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:13:17.340 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:14:44.005 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:15:24.441 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.449 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.455 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.462 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.466 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.470 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.474 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.479 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.482 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.486 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.490 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.495 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.500 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.504 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.509 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.513 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.518 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.522 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.525 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:24.529 [main            ] WARN  RaffleOrderTest        - 活动未开启（非open状态）
+24-11-03.11:15:41.403 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:18:25.278 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s41ms8µs500ns).
+24-11-03.11:19:00.228 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:54.385 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-03.11:19:57.676 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.704 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.707 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.710 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.714 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.718 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.721 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.724 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.727 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.731 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.734 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.737 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.740 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.743 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.746 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.750 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.754 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.757 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.760 [main            ] WARN  RaffleOrderTest        - 活动库存不足
+24-11-03.11:19:57.764 [main            ] WARN  RaffleOrderTest        - 活动库存不足
