@@ -1,6 +1,2 @@
-# 库表设计
-活动会去调策略表，策略表就是为了活动设计的
-策略表里面会有一条条的信息
-
 GITHUB_TOKEN修改为：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
 
