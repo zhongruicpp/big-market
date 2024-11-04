@@ -1,0 +1,129 @@
+24-10-30.09:13:00.625 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 12332 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:13:00.625 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:13:01.538 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:13:01.541 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:13:01.577 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+24-10-30.09:13:03.411 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:13:03.668 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:13:03.819 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:13:03.831 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:13:07.371 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 7.271 seconds (JVM running for 8.191)
+24-10-30.09:13:53.839 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:14:00.929 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:14:01.173 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:14:20.130 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 19384 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:14:20.131 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:14:20.723 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:14:20.725 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:14:20.755 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+24-10-30.09:14:22.255 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:14:22.501 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:14:22.619 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:14:22.627 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:14:25.137 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.416 seconds (JVM running for 6.176)
+24-10-30.09:14:33.171 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:14:33.264 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:14:34.001 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:14:41.279 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:14:53.077 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:14:53.639 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:14:53.640 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:15:37.487 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=56s206ms234µs200ns).
+24-10-30.09:15:37.487 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:16:26.743 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:16:26.757 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:16:40.309 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:18:45.049 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 2976 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:18:45.050 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:18:45.690 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:18:45.693 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:18:45.732 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-10-30.09:18:47.258 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:18:47.505 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:18:47.640 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:18:47.650 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:18:50.261 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.63 seconds (JVM running for 6.425)
+24-10-30.09:18:52.902 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:18:53.125 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:18:53.203 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:18:53.203 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:18:57.091 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:18:57.619 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:18:57.642 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:19:12.563 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:20:24.686 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 11904 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:20:24.687 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:20:25.290 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:20:25.293 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:20:25.328 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-10-30.09:20:26.880 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:20:27.129 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:20:27.245 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:20:27.254 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:20:29.952 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.659 seconds (JVM running for 6.443)
+24-10-30.09:20:30.008 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:20:32.855 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:20:33.054 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:20:33.123 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:20:33.123 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:20:34.031 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:20:34.048 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:20:35.481 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:22:08.447 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 22192 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:22:08.449 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:22:09.084 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:22:09.087 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:22:09.122 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+24-10-30.09:22:10.692 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:22:10.929 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:22:11.041 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:22:11.051 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:22:13.579 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.555 seconds (JVM running for 6.314)
+24-10-30.09:22:15.169 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:22:15.743 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:22:15.942 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:22:16.012 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:22:16.012 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:22:17.048 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:22:17.066 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:22:20.732 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:23:13.184 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 21232 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:23:13.185 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:23:13.883 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:23:13.887 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:23:13.932 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-10-30.09:23:15.550 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:23:15.818 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:23:15.942 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:23:15.952 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:23:18.167 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.409 seconds (JVM running for 6.196)
+24-10-30.09:23:20.261 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:23:20.295 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:23:20.488 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:23:20.555 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:23:20.555 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:24:38.968 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:24:38.975 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:24:38.995 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:24:46.910 [main            ] INFO  RaffleOrderTest        - Starting RaffleOrderTest using Java 1.8.0_412 on ZhongRui with PID 20840 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-10-30.09:24:46.911 [main            ] INFO  RaffleOrderTest        - The following 1 profile is active: "dev"
+24-10-30.09:24:47.503 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-10-30.09:24:47.506 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-10-30.09:24:47.541 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+24-10-30.09:24:49.045 [main            ] INFO  Version                - Redisson 3.32.0
+24-10-30.09:24:49.308 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-10-30.09:24:49.424 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:24:49.435 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-10-30.09:24:52.217 [main            ] INFO  RaffleOrderTest        - Started RaffleOrderTest in 5.682 seconds (JVM running for 6.415)
+24-10-30.09:24:54.236 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:24:54.437 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:24:54.515 [main            ] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态】校验开始。
+24-10-30.09:24:54.515 [main            ] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【校验&扣减】开始。
+24-10-30.09:24:56.662 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:24:56.668 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-10-30.09:24:56.692 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-10-30.09:25:04.273 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:25:06.850 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:25:13.422 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:25:17.998 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存【延迟队列获取，降低对数据库的更新频次，不要产生竞争】
+24-10-30.09:25:17.998 [main            ] INFO  RaffleOrderTest        - 测试结果：750313801977

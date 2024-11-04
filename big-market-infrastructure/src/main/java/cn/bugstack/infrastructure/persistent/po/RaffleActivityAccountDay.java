@@ -8,65 +8,43 @@ import lombok.NoArgsConstructor;
 import java.util.Date;
 
 /**
- * @description 抽奖活动账户表 持久化对象
- * @create 2024-03-02 13:15
+ * @description 抽奖活动账户表-日次数
+ * @create 2024-04-03 15:28
  */
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class RaffleActivityAccount {
+@NoArgsConstructor
+public class RaffleActivityAccountDay {
 
     /**
      * 自增ID
      */
-    private Long id;
-
+    private String id;
     /**
      * 用户ID
      */
     private String userId;
-
     /**
      * 活动ID
      */
     private Long activityId;
-
     /**
-     * 总次数
+     * 日期（yyyy-mm-dd）
      */
-    private Integer totalCount;
-
-    /**
-     * 总次数-剩余
-     */
-    private Integer totalCountSurplus;
-
+    private String day;
     /**
      * 日次数
      */
     private Integer dayCount;
-
     /**
      * 日次数-剩余
      */
     private Integer dayCountSurplus;
-
-    /**
-     * 月次数
-     */
-    private Integer monthCount;
-
-    /**
-     * 月次数-剩余
-     */
-    private Integer monthCountSurplus;
-
     /**
      * 创建时间
      */
     private Date createTime;
-
     /**
      * 更新时间
      */
