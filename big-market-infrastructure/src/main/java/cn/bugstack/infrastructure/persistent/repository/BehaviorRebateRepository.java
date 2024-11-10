@@ -74,7 +74,7 @@ public class BehaviorRebateRepository implements IBehaviorRebateRepository {
                     for (BehaviorRebateAggregate behaviorRebateAggregate : behaviorRebateAggregates) {
 
                         BehaviorRebateOrderEntity behaviorRebateOrderEntity = behaviorRebateAggregate.getBehaviorRebateOrderEntity();
-                        // 用户行为返利订单对象
+                        // 用户行为返利订单对象 向 'user_behavior_rebate_order' 中插入数据
                         UserBehaviorRebateOrder userBehaviorRebateOrder = new UserBehaviorRebateOrder();
                         userBehaviorRebateOrder.setUserId(behaviorRebateOrderEntity.getUserId());
                         userBehaviorRebateOrder.setOrderId(behaviorRebateOrderEntity.getOrderId());
@@ -85,7 +85,7 @@ public class BehaviorRebateRepository implements IBehaviorRebateRepository {
                         userBehaviorRebateOrder.setBizId(behaviorRebateOrderEntity.getBizId());
                         userBehaviorRebateOrderDao.insert(userBehaviorRebateOrder);
 
-                        // 任务对象
+                        // 任务对象 向 'task' 中写入数据
                         TaskEntity taskEntity = behaviorRebateAggregate.getTaskEntity();
                         Task task = new Task();
                         task.setUserId(taskEntity.getUserId());
