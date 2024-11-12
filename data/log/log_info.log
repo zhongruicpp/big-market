@@ -1,0 +1,59 @@
+24-11-12.21:18:28.577 [main            ] INFO  Application            - Starting Application using Java 1.8.0_412 on ZhongRui with PID 41488 (E:\new_big_market\big-market\big-market-app\target\classes started by zhong in E:\new_big_market\big-market)
+24-11-12.21:18:28.578 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-11-12.21:18:29.171 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-12.21:18:29.173 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-12.21:18:29.207 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+24-11-12.21:18:29.822 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8091 (http)
+24-11-12.21:18:29.830 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8091"]
+24-11-12.21:18:29.830 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-11-12.21:18:29.830 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+24-11-12.21:18:29.915 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-11-12.21:18:29.915 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1298 ms
+24-11-12.21:18:30.179 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-12.21:18:30.415 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-12.21:18:30.531 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-12.21:18:30.540 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-12.21:18:31.877 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8091"]
+24-11-12.21:18:31.890 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8091 (http) with context path ''
+24-11-12.21:18:31.891 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-12.21:18:31.929 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#4d93f75b:0/SimpleConnection@b5de9ac [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63830]
+24-11-12.21:18:31.977 [main            ] INFO  Application            - Started Application in 3.795 seconds (JVM running for 4.975)
+24-11-12.21:18:35.042 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-12.21:18:35.042 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-12.21:18:35.220 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-12.21:18:35.220 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-12.21:19:12.795 [http-nio-8091-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-12.21:19:12.796 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+24-11-12.21:19:12.797 [http-nio-8091-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+24-11-12.21:19:12.828 [http-nio-8091-exec-1] INFO  RaffleActivityController - 活动装配，数据预热，开始 activityId:100301
+24-11-12.21:19:12.829 [http-nio-8091-exec-1] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-12.21:19:12.840 [http-nio-8091-exec-1] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-12.21:19:16.434 [http-nio-8091-exec-1] INFO  RaffleActivityController - 活动装配，数据预热，完成 activityId:100301
+24-11-12.21:19:48.800 [http-nio-8091-exec-3] INFO  RaffleActivityController - 活动抽奖 userId:xiaofuge activityId:100301
+24-11-12.21:20:53.672 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m7s282ms2µs900ns).
+24-11-12.21:20:53.672 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=45s83ms984µs100ns).
+24-11-12.21:20:53.673 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=45s83ms995µs901ns).
+24-11-12.21:21:53.637 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=59s963ms577µs800ns).
+24-11-12.21:21:53.637 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=59s963ms558µs999ns).
+24-11-12.21:21:53.637 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=59s964ms361µs300ns).
+24-11-12.21:22:21.281 [http-nio-8091-exec-3] INFO  RaffleActivityController - 活动抽奖，创建订单 userId:xiaofuge activityId:100301 orderId:259328030078
+24-11-12.21:22:21.285 [http-nio-8091-exec-3] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: xiaofuge strategyId: 100006 ruleModel: rule_default awardId: 101
+24-11-12.21:22:21.286 [http-nio-8091-exec-3] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 xiaofuge 100006 101 rule_default
+24-11-12.21:22:21.306 [http-nio-8091-exec-3] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:xiaofuge strategyId:100006 awardId:101
+24-11-12.21:22:21.308 [http-nio-8091-exec-3] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:xiaofuge strategyId:100006 awardId:101
+24-11-12.21:22:21.327 [http-nio-8091-exec-3] INFO  DecisionTreeEngine     - 决策树引擎【规则树-兜底奖励】treeId:tree_luck_award node:rule_stock code:0001
+24-11-12.21:22:21.328 [http-nio-8091-exec-3] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 xiaofuge 100006 101 null
+24-11-12.21:24:27.562 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m33s926ms84µs801ns).
+24-11-12.21:24:27.562 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m33s926ms65µs800ns).
+24-11-12.21:24:27.562 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=2m33s925ms244µs300ns).
+24-11-12.21:24:33.885 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+24-11-12.21:24:44.658 [http-nio-8091-exec-3] INFO  EventPublisher         - 发送MQ消息 topic:send_award message:{"data":{"awardId":101,"awardTitle":"随机积分","userId":"xiaofuge"},"id":"95019179280","timestamp":"2024-11-12 21:24:27.565"}
+24-11-12.21:24:51.435 [pool-3-thread-16] INFO  EventPublisher         - 发送MQ消息 topic:send_award message:{"data":{"awardId":101,"awardTitle":"随机积分","userId":"xiaofuge"},"id":"95019179280","timestamp":"2024-11-12 21:24:27.565"}
+24-11-12.21:24:51.440 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  SendAwardCustomer      - 监听用户奖品发送消息 topic: send_award message: {"data":{"awardId":101,"awardTitle":"随机积分","userId":"xiaofuge"},"id":"95019179280","timestamp":"2024-11-12 21:24:27.565"}
+24-11-12.21:24:52.902 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  SendAwardCustomer      - 监听用户奖品发送消息 topic: send_award message: {"data":{"awardId":101,"awardTitle":"随机积分","userId":"xiaofuge"},"id":"95019179280","timestamp":"2024-11-12 21:24:27.565"}
+24-11-12.21:25:53.983 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-12.21:25:53.984 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-12.21:25:54.471 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-12.21:25:54.471 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-12.21:25:54.642 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-12.21:25:54.642 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped

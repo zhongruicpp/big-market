@@ -82,7 +82,7 @@ public class AwardRepository implements IAwardRepository {
                     userAwardRecordDao.insert(userAwardRecord);
                     // 写入任务 向 'task' 中插入数据
                     taskDao.insert(task);
-                    // 更新抽奖单
+                    // 更新抽奖单 根据 orderId 更新 `user_raffle_order` 中的 state 使其变成 created
                     int count = userRaffleOrderDao.updateUserRaffleOrderStateUsed(userRaffleOrderReq);
                     if (count != 1) {
                         status.setRollbackOnly();
