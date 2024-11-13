@@ -1,5 +1,6 @@
 package cn.bugstack.domain.activity.service;
 
+import cn.bugstack.domain.activity.model.entity.ActivityAccountEntity;
 import cn.bugstack.domain.activity.model.entity.SkuRechargeEntity;
 
 /**
@@ -27,4 +28,22 @@ public interface IRaffleActivityAccountQuotaService {
      * @return 参与次数
      */
     Integer queryRaffleActivityAccountDayPartakeCount(Long activityId, String userId);
+
+    /**
+     * 查询活动账户额度 [总、日、月]
+     *
+     * @param activityId 活动ID
+     * @param userId     用户ID
+     * @return 账户实体
+     */
+    ActivityAccountEntity queryActivityAccountEntity(Long activityId, String userId);
+
+    /**
+     * 查询活动账户 - 日，参与次数
+     *
+     * @param activityId 活动ID
+     * @param userId     用户ID
+     * @return 参与次数
+     */
+    Integer queryRaffleActivityAccountPartakeCount(Long activityId, String userId);
 }
