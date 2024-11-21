@@ -53,7 +53,7 @@ public class RaffleActivityPartakeService extends AbstractRaffleActivityPartake 
             activityAccountMonthEntity.setActivityId(activityId);
             activityAccountMonthEntity.setMonth(month);
             activityAccountMonthEntity.setMonthCount(activityAccountEntity.getMonthCount());
-            activityAccountMonthEntity.setMonthCountSurplus(activityAccountEntity.getMonthCountSurplus());
+            activityAccountMonthEntity.setMonthCountSurplus(activityAccountEntity.getMonthCount());
         }
         // 查询日账户额度
         ActivityAccountDayEntity activityAccountDayEntity = activityRepository.queryActivityAccountDayByUserId(userId, activityId, day);
@@ -63,13 +63,13 @@ public class RaffleActivityPartakeService extends AbstractRaffleActivityPartake 
 
         // 创建月账户额度；true = 存在月账户、false = 不存在月账户
         boolean isExistAccountDay = null != activityAccountDayEntity;
-        if (null == activityAccountDayEntity) {
+        if (activityAccountDayEntity == null) {
             activityAccountDayEntity = new ActivityAccountDayEntity();
             activityAccountDayEntity.setUserId(userId);
             activityAccountDayEntity.setActivityId(activityId);
             activityAccountDayEntity.setDay(day);
             activityAccountDayEntity.setDayCount(activityAccountEntity.getDayCount());
-            activityAccountDayEntity.setDayCountSurplus(activityAccountEntity.getDayCountSurplus());
+            activityAccountDayEntity.setDayCountSurplus(activityAccountEntity.getDayCount());
         }
 
         // 构建对象

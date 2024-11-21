@@ -19,6 +19,7 @@ import cn.bugstack.types.exception.AppException;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RBlockingQueue;
 import org.redisson.api.RDelayedQueue;
+import org.redisson.api.RLock;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.support.TransactionTemplate;
@@ -120,7 +121,10 @@ public class ActivityRepository implements IActivityRepository {
 
     @Override
     public void doSaveOrder(CreateQuotaOrderAggregate createOrderAggregate) {
+
+        RLock lock = redisService.getLock(Constants.RedisKey.ACTIVITY_ACCOUNT_LOCK + createOrderAggregate.getUserId() + Constants.UNDERLINE + createOrderAggregate.getActivityId());
         try {
+            lock.lock(3, TimeUnit.SECONDS);
             // 订单对象
             ActivityOrderEntity activityOrderEntity = createOrderAggregate.getActivityOrderEntity();
             RaffleActivityOrder raffleActivityOrder = new RaffleActivityOrder();
@@ -170,11 +174,12 @@ public class ActivityRepository implements IActivityRepository {
                     // 1. 写入订单 向 'raffle_activity_order' 中插入数据
                     raffleActivityOrderDao.insert(raffleActivityOrder);
                     // 2. 更新账户
-                    int count = raffleActivityAccountDao.updateAccountQuota(raffleActivityAccount);
-                    if (count == 0) {
+                    RaffleActivityAccount raffleActivityAccountRes = raffleActivityAccountDao.queryAccountByUserId(raffleActivityAccount);
+                    if (raffleActivityAccountRes == null) {
                         raffleActivityAccountDao.insert(raffleActivityAccount);
+                    } else {
+                        raffleActivityAccountDao.updateAccountQuota(raffleActivityAccount);
                     }
-
                     // 4. 更新账户 - 月
                     raffleActivityAccountMonthDao.addAccountQuota(raffleActivityAccountMonth);
                     // 5. 更新账户 - 日
@@ -189,6 +194,7 @@ public class ActivityRepository implements IActivityRepository {
             });
         } finally {
             dbRouter.clear();
+            lock.unlock();
         }
     }
 

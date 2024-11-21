@@ -125,3 +125,96 @@
 24-11-21.08:52:38.603 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
 24-11-21.08:52:38.604 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
 24-11-21.08:52:38.604 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:13:13.435 [main            ] INFO  CreditAdjustServiceTest - Starting CreditAdjustServiceTest using Java 1.8.0_412 on ZhongRui with PID 24144 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-21.20:13:13.437 [main            ] INFO  CreditAdjustServiceTest - The following 1 profile is active: "dev"
+24-11-21.20:13:14.148 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-21.20:13:14.151 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-21.20:13:14.193 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-11-21.20:13:15.576 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-21.20:13:15.887 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:13:16.004 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:13:16.013 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:13:19.561 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-21.20:13:19.740 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#2ad7bd26:0/SimpleConnection@2a984952 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 53769]
+24-11-21.20:13:19.885 [main            ] INFO  CreditAdjustServiceTest - Started CreditAdjustServiceTest in 6.866 seconds (JVM running for 8.134)
+24-11-21.20:13:20.045 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:13:20.045 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:13:27.199 [main            ] INFO  CreditAdjustService    - 增加账户积分额度开始 userId:xiaofuge tradeName:REBATE amount:10.19
+24-11-21.20:13:53.010 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:13:53.010 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:14:05.591 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:14:05.592 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:14:05.593 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:14:06.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:14:06.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:14:06.554 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:14:06.556 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:14:06.556 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:14:06.556 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:16:04.517 [main            ] INFO  CreditAdjustServiceTest - Starting CreditAdjustServiceTest using Java 1.8.0_412 on ZhongRui with PID 23880 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-21.20:16:04.525 [main            ] INFO  CreditAdjustServiceTest - The following 1 profile is active: "dev"
+24-11-21.20:16:05.353 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-21.20:16:05.357 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-21.20:16:05.408 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+24-11-21.20:16:06.962 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-21.20:16:07.294 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:16:07.436 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:16:07.449 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:16:10.712 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-21.20:16:10.819 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#7a572ea0:0/SimpleConnection@48f4f03e [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54111]
+24-11-21.20:16:11.012 [main            ] INFO  CreditAdjustServiceTest - Started CreditAdjustServiceTest in 6.88 seconds (JVM running for 7.566)
+24-11-21.20:16:11.258 [main            ] INFO  CreditAdjustService    - 增加账户积分额度开始 userId:xiaofuge tradeName:REBATE amount:10.19
+24-11-21.20:16:11.304 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:16:11.556 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:16:11.637 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:16:11.638 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:16:11.638 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:16:11.917 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:16:11.931 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:16:12.009 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:16:12.010 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:16:12.011 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:16:12.011 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:18:17.889 [main            ] INFO  BehaviorRebateServiceTest - Starting BehaviorRebateServiceTest using Java 1.8.0_412 on ZhongRui with PID 30600 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-21.20:18:17.890 [main            ] INFO  BehaviorRebateServiceTest - The following 1 profile is active: "dev"
+24-11-21.20:18:18.562 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-21.20:18:18.565 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-21.20:18:18.603 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-11-21.20:18:19.820 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-21.20:18:20.127 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:18:20.235 [redisson-netty-1-5] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:18:20.243 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-21.20:18:23.242 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-21.20:18:23.412 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#1216eb3f:0/SimpleConnection@40b54762 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54366]
+24-11-21.20:18:23.531 [main            ] INFO  BehaviorRebateServiceTest - Started BehaviorRebateServiceTest in 6.057 seconds (JVM running for 6.821)
+24-11-21.20:18:31.105 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:18:31.105 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:18:31.105 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-21.20:18:31.341 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:18:31.341 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:18:31.341 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms166µs800ns).
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms128µs200ns).
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms206µs600ns).
+24-11-21.20:20:05.206 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s214ms599µs100ns).
+24-11-21.20:20:05.206 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s215ms170µs500ns).
+24-11-21.20:20:05.207 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s215ms104µs900ns).
+24-11-21.20:21:20.306 [pool-3-thread-20] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"97250741262","timestamp":1732191528003}
+24-11-21.20:21:20.306 [pool-3-thread-2 ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_sku_20241120","rebateConfig":"9011","rebateType":"sku","userId":"xiaofuge"},"id":"08880671127","timestamp":1732191528000}
+24-11-21.20:21:20.306 [pool-3-thread-19] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_sku_20241120","rebateConfig":"9011","rebateType":"sku","userId":"xiaofuge"},"id":"08880671127","timestamp":1732191528000}
+24-11-21.20:21:20.306 [pool-3-thread-1 ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"97250741262","timestamp":1732191528003}
+24-11-21.20:21:20.314 [main            ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_sku_20241120","rebateConfig":"9011","rebateType":"sku","userId":"xiaofuge"},"id":"08880671127","timestamp":"2024-11-21 20:18:48"}
+24-11-21.20:21:20.697 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 topic: send_rebate message: {"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"97250741262","timestamp":1732191528003}
+24-11-21.20:21:23.914 [main            ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"97250741262","timestamp":"2024-11-21 20:18:48.003"}
+24-11-21.20:21:36.380 [main            ] INFO  BehaviorRebateServiceTest - 请求参数：{"behaviorTypeVO":"SIGN","outBusinessNo":"20241120","userId":"xiaofuge"}
+24-11-21.20:21:50.119 [main            ] INFO  BehaviorRebateServiceTest - 测试结果：["465778580398","882299554995"]
+24-11-21.20:21:50.121 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  CreditAdjustService    - 增加账户积分额度开始 userId:xiaofuge tradeName:REBATE amount:10
+24-11-21.20:21:52.582 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:21:52.584 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:21:52.586 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-21.20:21:52.587 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:21:52.597 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:21:53.596 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-21.20:21:53.598 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:21:53.598 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-21.20:21:53.598 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped

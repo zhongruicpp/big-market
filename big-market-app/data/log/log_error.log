@@ -25,3 +25,12 @@
 24-11-21.08:52:33.553 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m41s693ms301µs800ns).
 24-11-21.08:52:33.554 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m41s693ms726µs200ns).
 24-11-21.08:52:33.564 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] WARN  AwardRepository        - 更新中奖记录，重复更新拦截 userId:user002 giveOutPrizesAggregate:{"userAwardRecordEntity":{"awardId":101,"awardState":"complete","orderId":"613220866836","userId":"user002"},"userCreditAwardEntity":{"creditAmount":0.361,"userId":"user002"},"userId":"user002"}
+24-11-21.20:13:15.887 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:16:07.294 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:18:20.127 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms166µs800ns).
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms128µs200ns).
+24-11-21.20:18:47.991 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s649ms206µs600ns).
+24-11-21.20:20:05.206 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s214ms599µs100ns).
+24-11-21.20:20:05.206 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s215ms170µs500ns).
+24-11-21.20:20:05.207 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m17s215ms104µs900ns).

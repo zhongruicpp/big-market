@@ -1,0 +1,88 @@
+24-11-20.21:36:41.668 [main            ] INFO  RaffleActivityControllerTest - Starting RaffleActivityControllerTest using Java 1.8.0_412 on ZhongRui with PID 27608 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-20.21:36:41.669 [main            ] INFO  RaffleActivityControllerTest - The following 1 profile is active: "dev"
+24-11-20.21:36:42.312 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-20.21:36:42.315 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-20.21:36:42.356 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+24-11-20.21:36:43.953 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-20.21:36:44.204 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-20.21:36:44.332 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-20.21:36:44.340 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-20.21:36:47.158 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-20.21:36:47.246 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#21d9cd04:0/SimpleConnection@21d8da75 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58143]
+24-11-20.21:36:47.410 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 topic: send_rebate message: {"data":{"bizId":"xiaofuge_integral_20241118","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"21205801052","timestamp":"2024-11-18 08:22:03.368"}
+24-11-20.21:36:47.418 [main            ] INFO  RaffleActivityControllerTest - Started RaffleActivityControllerTest in 6.105 seconds (JVM running for 6.873)
+24-11-20.21:36:47.589 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 - 非sku奖励暂时不处理 topic: send_rebate message: {"data":{"bizId":"xiaofuge_integral_20241118","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"21205801052","timestamp":"2024-11-18 08:22:03.368"}
+24-11-20.21:36:47.613 [main            ] INFO  RaffleActivityController - 日历签到返利开始 userId:xiaofuge
+24-11-20.21:36:47.632 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-20.21:36:47.854 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-20.21:36:47.882 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-20.21:36:47.897 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-20.21:36:47.936 [main            ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_sku_20241120","rebateConfig":"9011","rebateType":"sku","userId":"xiaofuge"},"id":"34821592767","timestamp":"2024-11-20 21:36:47.879"}
+24-11-20.21:36:47.945 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 topic: send_rebate message: {"data":{"bizId":"xiaofuge_sku_20241120","rebateConfig":"9011","rebateType":"sku","userId":"xiaofuge"},"id":"34821592767","timestamp":"2024-11-20 21:36:47.879"}
+24-11-20.21:36:47.949 [main            ] INFO  EventPublisher         - 发送MQ消息 topic:send_rebate message:{"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"99446759364","timestamp":"2024-11-20 21:36:47.88"}
+24-11-20.21:36:47.958 [main            ] INFO  RaffleActivityController - 日历签到返利完成 userId:xiaofuge orderIds: ["873270144562","872822502587"]
+24-11-20.21:36:47.961 [main            ] INFO  RaffleActivityControllerTest - 测试结果：{"code":"0000","data":true,"info":"调用成功"}
+24-11-20.21:36:47.981 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:36:47.982 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:36:47.987 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:36:48.035 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  ActivityBaseActionChain - 活动责任链-基础信息【有效期、状态、库存(sku)】校验开始。sku:9011 activityId:100301
+24-11-20.21:36:48.035 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【有效期、状态、库存(sku)】开始。sku:9011 activityId:100301
+24-11-20.21:36:48.042 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  ActivitySkuStockActionChain - 活动责任链-商品库存处理【有效期、状态、库存(sku)】成功。sku:9011 activityId:100301
+24-11-20.21:36:48.115 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:36:48.408 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:36:48.410 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:36:48.412 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-20.21:36:48.412 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-20.21:36:48.412 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-20.21:37:51.466 [main            ] INFO  RaffleActivityControllerTest - Starting RaffleActivityControllerTest using Java 1.8.0_412 on ZhongRui with PID 9808 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-20.21:37:51.467 [main            ] INFO  RaffleActivityControllerTest - The following 1 profile is active: "dev"
+24-11-20.21:37:52.119 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-20.21:37:52.121 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-20.21:37:52.158 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+24-11-20.21:37:53.454 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-20.21:37:53.717 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-20.21:37:53.843 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-20.21:37:53.852 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-20.21:37:56.999 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-20.21:37:57.207 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#370c7cc5:0/SimpleConnection@1626bddf [delegate=amqp://guest@127.0.0.1:5672/, localPort= 58343]
+24-11-20.21:37:57.298 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 topic: send_rebate message: {"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"99446759364","timestamp":"2024-11-20 21:36:47.88"}
+24-11-20.21:37:57.308 [main            ] INFO  RaffleActivityControllerTest - Started RaffleActivityControllerTest in 6.279 seconds (JVM running for 7.459)
+24-11-20.21:37:57.463 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] INFO  RebateMessageCustomer  - 监听用户行为返利消息 - 非sku奖励暂时不处理 topic: send_rebate message: {"data":{"bizId":"xiaofuge_integral_20241120","rebateConfig":"10","rebateType":"integral","userId":"xiaofuge"},"id":"99446759364","timestamp":"2024-11-20 21:36:47.88"}
+24-11-20.21:38:03.712 [main            ] INFO  RaffleActivityController - 活动抽奖 userId:user001 activityId:100301
+24-11-20.21:39:29.137 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-20.21:39:29.137 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-20.21:39:29.169 [scheduling-1    ] INFO  UpdateActivitySkuStockJob - 定时任务，更新活动sku库存 sku:9011 activityId:100301
+24-11-20.21:39:29.170 [scheduling-1    ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-20.21:39:29.381 [scheduling-1    ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-20.21:39:29.381 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-20.21:39:29.381 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-20.21:40:15.383 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m16s701µs300ns).
+24-11-20.21:40:15.383 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m16s700µs100ns).
+24-11-20.21:40:15.383 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m16s663µs700ns).
+24-11-20.21:41:01.646 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s263ms823µs700ns).
+24-11-20.21:41:01.646 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s263ms811µs200ns).
+24-11-20.21:41:01.646 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=46s264ms41µs800ns).
+24-11-20.21:41:01.677 [main            ] INFO  RaffleActivityController - 活动抽奖，创建订单 userId:user001 activityId:100301 orderId:638631815296
+24-11-20.21:42:49.278 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m47s631ms818µs100ns).
+24-11-20.21:42:49.278 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m47s631ms598µs300ns).
+24-11-20.21:42:49.278 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m47s631ms784µs700ns).
+24-11-20.21:43:04.956 [main            ] INFO  DefaultLogicChain      - 抽奖责任链-默认处理 userId: user001 strategyId: 100006 ruleModel: rule_default awardId: 101
+24-11-20.21:43:04.958 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-责任链 user001 100006 101 rule_default
+24-11-20.21:43:04.977 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减 userId:user001 strategyId:100006 awardId:101
+24-11-20.21:43:04.983 [main            ] INFO  RuleStockLogicTreeNode - 规则过滤-库存扣减-成功 userId:user001 strategyId:100006 awardId:101
+24-11-20.21:43:05.032 [main            ] INFO  DecisionTreeEngine     - 决策树引擎【规则树-兜底奖励】treeId:tree_luck_award node:rule_stock code:0001
+24-11-20.21:43:05.033 [main            ] INFO  AbstractRaffleStrategy - 抽奖策略计算-规则树 user001 100006 101 null
+24-11-20.21:43:05.096 [main            ] INFO  EventPublisher         - 发送MQ消息 topic:send_award message:{"data":{"awardId":101,"awardTitle":"随机积分","orderId":"638631815296","userId":"user001"},"id":"72946380526","timestamp":"2024-11-20 21:43:05.043"}
+24-11-20.21:43:05.098 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-1] INFO  SendAwardCustomer      - 监听用户奖品发送消息 topic: send_award message: {"data":{"awardId":101,"awardTitle":"随机积分","orderId":"638631815296","userId":"user001"},"id":"72946380526","timestamp":"2024-11-20 21:43:05.043"}
+24-11-20.21:43:14.832 [main            ] INFO  RaffleActivityControllerTest - 请求参数：{"activityId":100301,"userId":"user001"}
+24-11-20.21:43:14.836 [main            ] INFO  RaffleActivityControllerTest - 测试结果：{"code":"0000","data":{"awardId":101,"awardIndex":1,"awardTitle":"随机积分"},"info":"调用成功"}
+24-11-20.21:43:15.007 [scheduling-1    ] INFO  UpdateAwardStockJob    - 定时任务，更新奖品消耗库存 strategyId:100006 awardId:101
+24-11-20.21:43:24.332 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:43:24.332 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:43:24.333 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-20.21:43:24.911 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:43:24.911 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:43:24.939 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#2-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-20.21:43:24.941 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-20.21:43:24.942 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-20.21:43:24.942 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
