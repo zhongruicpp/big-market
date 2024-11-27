@@ -327,7 +327,7 @@ public class ActivityRepository implements IActivityRepository {
             dbRouter.doRouter(userId);
             transactionTemplate.execute(status -> {
                 try {
-                    // 1. 更新总账户
+                    // 1. 更新总账户 扣减账户
                     int totalCount = raffleActivityAccountDao.updateActivityAccountSubtractionQuota(RaffleActivityAccount.builder()
                             .userId(userId)
                             .activityId(activityId)
