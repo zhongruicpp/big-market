@@ -912,3 +912,30 @@ java.lang.NullPointerException: null
 24-11-06.22:12:59.679 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
 24-11-06.22:12:59.681 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
 24-11-06.22:12:59.682 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-27.16:36:32.755 [main            ] INFO  BehaviorRebateServiceTest - Starting BehaviorRebateServiceTest using Java 1.8.0_412 on ZhongRui with PID 6336 (started by zhong in E:\new_big_market\big-market\big-market-app)
+24-11-27.16:36:32.756 [main            ] INFO  BehaviorRebateServiceTest - The following 1 profile is active: "dev"
+24-11-27.16:36:33.457 [main            ] INFO  RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+24-11-27.16:36:33.460 [main            ] INFO  RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+24-11-27.16:36:33.512 [main            ] INFO  RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+24-11-27.16:36:34.913 [main            ] INFO  Version                - Redisson 3.32.0
+24-11-27.16:36:35.181 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+24-11-27.16:36:35.309 [redisson-netty-1-4] INFO  ConnectionsHolder      - 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-27.16:36:35.318 [redisson-netty-1-13] INFO  ConnectionsHolder      - 5 connections initialized for 127.0.0.1/127.0.0.1:6379
+24-11-27.16:36:38.424 [main            ] INFO  CachingConnectionFactory - Attempting to connect to: [127.0.0.1:5672]
+24-11-27.16:36:38.602 [main            ] INFO  CachingConnectionFactory - Created new connection: rabbitConnectionFactory#70b33256:0/SimpleConnection@1f4dd016 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 62323]
+24-11-27.16:36:38.695 [main            ] INFO  BehaviorRebateServiceTest - Started BehaviorRebateServiceTest in 6.366 seconds (JVM running for 7.37)
+24-11-27.16:36:54.185 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-27.16:36:54.185 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-27.16:36:54.185 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Starting...
+24-11-27.16:36:54.462 [main            ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-27.16:36:54.462 [pool-3-thread-1 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-27.16:36:54.462 [pool-3-thread-2 ] INFO  HikariDataSource       - Retail_HikariCP - Start completed.
+24-11-27.16:37:38.888 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m14s424ms922µs200ns).
+24-11-27.16:37:38.888 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m14s425ms57µs400ns).
+24-11-27.16:37:38.888 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m14s424ms883µs900ns).
+24-11-27.16:37:43.387 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-27.16:37:43.392 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Waiting for workers to finish.
+24-11-27.16:37:44.265 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-27.16:37:44.266 [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] INFO  SimpleMessageListenerContainer - Successfully waited for workers to finish.
+24-11-27.16:37:44.269 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
+24-11-27.16:37:44.270 [SpringApplicationShutdownHook] INFO  SimpleMessageListenerContainer - Shutdown ignored - container is already stopped
