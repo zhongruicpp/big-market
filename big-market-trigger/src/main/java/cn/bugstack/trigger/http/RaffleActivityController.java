@@ -128,6 +128,7 @@ public class RaffleActivityController implements IRaffleActivityService {
             }
 
             // 2、参与活动 - 创建参与记录订单 （更新 总、日、月 账户的同时 在 user_raffle_order 写入数据)
+            // 更新总、日、月账户的时候是减，因为用户要消耗自己的抽奖次数
             UserRaffleOrderEntity orderEntity = raffleActivityPartakeService.createOrder(request.getUserId(), request.getActivityId());
             log.info("活动抽奖，创建订单 userId:{} activityId:{} orderId:{}", request.getUserId(), request.getActivityId(), orderEntity.getOrderId());
 
