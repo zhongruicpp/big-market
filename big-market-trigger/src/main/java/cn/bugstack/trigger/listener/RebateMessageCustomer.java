@@ -56,6 +56,7 @@ public class RebateMessageCustomer {
                     skuRechargeEntity.setSku(Long.valueOf(rebateMessage.getRebateConfig()));
                     skuRechargeEntity.setOutBusinessNo(rebateMessage.getBizId());
                     raffleActivityAccountQuotaService.createOrder(skuRechargeEntity);
+                    break;
                 case "integral":
                     TradeEntity tradeEntity = new TradeEntity();
                     tradeEntity.setUserId(rebateMessage.getUserId());
@@ -64,6 +65,7 @@ public class RebateMessageCustomer {
                     tradeEntity.setAmount(new BigDecimal(rebateMessage.getRebateConfig()));
                     tradeEntity.setOutBusinessNo(rebateMessage.getBizId());
                     creditIncreaseService.createOrder(tradeEntity);
+                    break;
             }
         } catch (AppException e) {
             if (ResponseCode.INDEX_DUP.getCode().equals(e.getCode())) {
