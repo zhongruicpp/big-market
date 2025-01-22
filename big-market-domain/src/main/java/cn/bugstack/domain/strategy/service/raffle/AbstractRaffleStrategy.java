@@ -40,7 +40,7 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
         if (strategyId == null || StringUtils.isBlank(userId)) {
             throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(), ResponseCode.ILLEGAL_PARAMETER.getInfo());
         }
-        // 2. 策略查询 在 ‘strategy’ 中查询
+        // 2. 策略查询 在 'strategy' 中查询
         StrategyEntity strategy = repository.queryStrategyEntityByStrategyId(strategyId);
         // 3. 抽奖前 - 规则过滤
         RuleActionEntity<RuleActionEntity.RaffleBeforeEntity> ruleActionEntity = this.doCheckRaffleBeforeLogic(RaffleFactorEntity.builder().userId(userId).strategyId(strategyId).build(), strategy.ruleModels());
@@ -64,6 +64,7 @@ public abstract class AbstractRaffleStrategy implements IRaffleStrategy {
         Integer awardId = strategyDispatch.getRandomAwardId(strategyId);
 
         // 5. 查询奖品规则「抽奖中（拿到奖品ID时，过滤规则）、抽奖后（扣减完奖品库存后过滤，抽奖中拦截和无库存则走兜底）」
+        // 在 'strategy_award'中进行查询
         StrategyAwardRuleModelVO strategyAwardRuleModelVO = repository.queryStrategyAwardRuleModelVO(strategyId, awardId);
 
         // 6. 抽奖中 - 规则过滤
