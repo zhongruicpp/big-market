@@ -26,3 +26,7 @@
 24-10-28.21:07:18.191 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
 24-10-28.21:14:27.037 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
 24-10-28.21:20:33.132 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+25-01-23.10:48:00.095 [main            ] WARN  SequentialDnsAddressResolverFactory - DNS TCP fallback on UDP query timeout disabled. Upgrade Netty to 4.1.105 or higher.
+25-01-23.10:49:26.737 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=47s838ms772µs300ns).
+25-01-23.10:50:46.818 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=1m20s81ms535µs600ns).
+25-01-23.10:55:50.585 [Retail_HikariCP housekeeper] WARN  HikariPool             - Retail_HikariCP - Thread starvation or clock leap detected (housekeeper delta=59s220ms364µs600ns).
