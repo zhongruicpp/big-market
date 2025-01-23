@@ -37,6 +37,7 @@ public class DefaultRaffleStrategy extends AbstractRaffleStrategy {
 
     @Override
     protected DefaultTreeFactory.StrategyAwardVO raffleLogicTree(String userId, Long strategyId, Integer awardId) {
+        // 在 strategy_award 表中进行查询
         StrategyAwardRuleModelVO strategyAwardRuleModelVO = repository.queryStrategyAwardRuleModelVO(strategyId, awardId);
         if (strategyAwardRuleModelVO == null) {
             return DefaultTreeFactory.StrategyAwardVO.builder()
