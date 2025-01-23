@@ -131,7 +131,7 @@ public class ActivityRepository implements IActivityRepository {
             dbRouter.doRouter(createOrderAggregate.getUserId());
             transactionTemplate.execute(status -> {
                 try {
-                    // 1. 写入订单
+                    // 1. 写入订单 向 'raffle_activity_order' 中写入数据
                     raffleActivityOrderDao.insert(raffleActivityOrder);
                     // 2. 更新账户
                     int count = raffleActivityAccountDao.updateAccountQuota(raffleActivityAccount);
