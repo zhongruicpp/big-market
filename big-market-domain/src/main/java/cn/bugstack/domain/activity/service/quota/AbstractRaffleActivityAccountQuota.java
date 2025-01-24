@@ -33,6 +33,7 @@ public abstract class AbstractRaffleActivityAccountQuota extends RaffleActivityA
         if (null == sku || StringUtils.isBlank(userId) || StringUtils.isBlank(outBusinessNo)) {
             throw new AppException(ResponseCode.ILLEGAL_PARAMETER.getCode(), ResponseCode.ILLEGAL_PARAMETER.getInfo());
         }
+
         // 2. 查询基础信息
         // 2.1 通过sku查询活动信息
         ActivitySkuEntity activitySkuEntity = queryActivitySku(sku);
@@ -40,13 +41,17 @@ public abstract class AbstractRaffleActivityAccountQuota extends RaffleActivityA
         ActivityEntity activityEntity = queryRaffleActivityByActivityId(activitySkuEntity.getActivityId());
         // 2.3 查询次数信息（用户在活动上可参与的次数）
         ActivityCountEntity activityCountEntity = queryRaffleActivityCountByActivityCountId(activitySkuEntity.getActivityCountId());
-        // 3. 活动动作规则校验 todo 后续处理规则过滤流程，暂时也不处理责任链结果
+
+        // 3. 活动动作规则校验
         IActionChain actionChain = defaultActivityChainFactory.openActionChain();
-        boolean success = actionChain.action(activitySkuEntity, activityEntity, activityCountEntity);
+        actionChain.action(activitySkuEntity, activityEntity, activityCountEntity);
+
         // 4. 构建订单聚合对象
         CreateQuotaOrderAggregate createOrderAggregate = buildOrderAggregate(skuRechargeEntity, activitySkuEntity, activityEntity, activityCountEntity);
+
         // 5. 保存订单
         doSaveOrder(createOrderAggregate);
+
         // 6. 返回单号
         return createOrderAggregate.getActivityOrderEntity().getOrderId();
     }
